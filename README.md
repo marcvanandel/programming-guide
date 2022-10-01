@@ -20,6 +20,7 @@ What do I need? (use Ctrl+click to open links)
   This is a very basic tool ... and because we'll be using GitHub as well (see tool #2) we'll use the GitHub Desktop version of git.
   - Download the [GitHub Desktop](https://desktop.github.com/)
   - Install with all defaults
+  - Check out these [instruction videos](https://youtu.be/9GKpbI1siow)
 
 - Tool #2: [GitHub.com](https://github.com/) for hosting your files online including the version history of all your files. By doing so you also have a backup of all your files _and_ you can share your changes with others. This is also used to publish your software releases.
 
