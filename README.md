@@ -74,12 +74,6 @@ A fully integrated editor which includes support for build tools and all kind of
 
 What do I need? (use Ctrl+click to open links)
 
-- Tool #1: [git](#git)
-- Tool #2: [GitHub.com](#github)
-- Tool #3: [VSCode](#vscode)
-- Tool #4: [Markdown](#markdown)
-- Tool #5: [NodeJS](#nodejs)
-
 ### Git
 
 Tool #1: [git](https://git-scm.com/) for version control of your local files; you'll need this a lot :wink:
