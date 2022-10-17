@@ -16,6 +16,54 @@ Help for my first programming experience. Start with [Work to do?](#work-to-do) 
 > 
 > [JavaScript introduction video](https://youtu.be/W6NZfCO5SIk)
 
+## Knowledge
+
+You'll need some understanding of some concepts. Here are a few with a very limited explaination of them.
+
+### It depends
+
+'It depends' is the main response to many questions an IT guy will reply. Why? Just ... because it depends.
+Software and technology are layers of technical capabilities and complexity is within each layer and multiplied between layers.
+So the answer to a simple question is very often 'it depends.
+It depends on which layer of the technology something arises.
+It depends if it is on the client side or server side (see [client-server](#client-server)).
+It depends on the error.
+It depends on which specific technology or programming language is used.
+It can depend on so many things!
+Be prepared to get the answer: 'It depends'!
+
+### code-build-run
+
+Software is written as plain text files.
+This can not be interpreted by computers directly ... most of the times (see [it depends](#it-depends).
+It is a common pattern that source code has to be transformed (compiled) to for computers executable software.
+This transformation contains transforming the text files to machine readible files but also contains steps for bundling, collecting, downloading dependencies and many, many other steps.
+In general all these steps combined are called 'build' or 'the build'.
+
+This has to happen before the software can actually be executed on a computer. This execution is generally called 'run'.
+
+### client-server
+
+The internet connects computers.
+Each computer can a client.
+As a client this computer is requesting some resource through the internet from another computer.
+The latter is set up as the server.
+A server is just a piece of software that listens to a certain port of the computer the software is running on and that will respond to requests on that port.
+So my local laptop or desktop computer can be turned into a server by starting a piece of software that listens to port 1000 for example.
+You can use a browser as a client by navigating to http://127.0.01:1000.
+The first part is the IP address (internet address) of my local computer (also called machine) and after the colon is the port you specify the request to, in this case port 1000.
+DNS is the solution to hide the IP address numbers and use proper and names easy to remember.
+Your local machine acts as a local host so this request can be written as http://localhost:1000.
+
+### browser-server
+
+A browser is a special client which also has rich features to run code and visualise downloaded resources.
+In general browsers will request HTML resources from servers and this is the basic content of a webpage.
+HTML is the structured content which includes the text, links to the images and links to formatting configuration like collors and such and also links to JavaScript.
+These last sort are text files which are directly executable by the browser to animate the visualisation and do whole a lot of stuff which will make the user interface interactive for the user.
+
+as extension of 'client-server'
+
 ## Tools
 
 What do I need? (use Ctrl+click to open links)
