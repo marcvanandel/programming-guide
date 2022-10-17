@@ -62,24 +62,48 @@ In general browsers will request HTML resources from servers and this is the bas
 HTML is the structured content which includes the text, links to the images and links to formatting configuration like collors and such and also links to JavaScript.
 These last sort are text files which are directly executable by the browser to animate the visualisation and do whole a lot of stuff which will make the user interface interactive for the user.
 
-as extension of 'client-server'
+### code-editor
+
+Source code are just text files.
+You will need an editor to manipulate these text files preferably with support to check that instructions are valid for interpretation of the computer.
+As long as the text files are valid the editor does not matter; you're free to choose your own.
+A fully integrated editor which includes support for build tools and all kind of error handling during development is called a 'Integrated Development Environment' or IDE in short.
+[Visual Studio Code](#vscode) is sort of a combination of a fairly simple editor and a full IDE.
 
 ## Tools
 
 What do I need? (use Ctrl+click to open links)
 
-- Tool #1: [git](https://git-scm.com/) for version control of your local files; you'll need this a lot :wink:
-  This is a very basic tool ... and because we'll be using GitHub as well (see tool #2) we'll use the GitHub Desktop version of git.
-  - Download the [GitHub Desktop](https://desktop.github.com/)
-  - Install with all defaults
-  - Check out these instruction videos [part 1](https://youtu.be/9GKpbI1siow) and [part 2](https://youtu.be/n-p1RUmdl9M)
+- Tool #1: [git](#git)
+- Tool #2: [GitHub.com](#github)
+- Tool #3: [VSCode](#vscode)
+- Tool #4: [Markdown](#markdown)
+- Tool #5: [NodeJS](#nodejs)
 
-- Tool #2: [GitHub.com](https://github.com/) for hosting your files online including the version history of all your files. By doing so you also have a backup of all your files _and_ you can share your changes with others. This is also used to publish your software releases.
+### Git
 
-- Tool #3: [VSCode](https://code.visualstudio.com/) (or Visual Studio Code)
-  This is your editor to edit your files. You also will use this for your 'git actions' and synchronization with GitHub
+Tool #1: [git](https://git-scm.com/) for version control of your local files; you'll need this a lot :wink:
 
-- Tool #4: [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-  This is a format to create documentation like this guide. Files have `.md` extension (last part of the filename). In GitHub these Markdown files will be shown as webpages with links and formatting like bulletpoints and headers. Knowing this tool will help you document your own journey in developing your applications.
+This is a very basic tool ... and because we'll be using GitHub as well (see tool #2) we'll use the GitHub Desktop version of git.
 
-- Tool #5: [NodeJS](https://nodejs.org/en/)
+- Download the [GitHub Desktop](https://desktop.github.com/)
+- Install with all defaults
+- Check out these instruction videos [part 1](https://youtu.be/9GKpbI1siow) and [part 2](https://youtu.be/n-p1RUmdl9M)
+
+### GitHub
+
+Tool #2: [GitHub.com](https://github.com/) for hosting your files online including the version history of all your files. By doing so you also have a backup of all your files _and_ you can share your changes with others. This is also used to publish your software releases.
+
+### VSCode
+
+Tool #3: [VSCode](https://code.visualstudio.com/) (or Visual Studio Code)
+
+This is your editor to edit your files. You also will use this for your 'git actions' and synchronization with GitHub
+
+### Markdown
+
+Tool #4: [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+This is a format to create documentation like this guide. Files have `.md` extension (last part of the filename). In GitHub these Markdown files will be shown as webpages with links and formatting like bulletpoints and headers. Knowing this tool will help you document your own journey in developing your applications.
+
+Tool #5: [NodeJS](https://nodejs.org/en/)
