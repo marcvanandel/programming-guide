@@ -1,0 +1,29 @@
+@startuml full-view
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!includeurl ICONURL/devicons/code.puml
+!includeurl ICONURL/font-awesome/cogs.puml
+!includeurl ICONURL/font-awesome-5/play.puml
+!includeurl ICONURL/devicons2/vscode.puml
+
+HIDE_STEREOTYPE()
+
+Person(user1, "User")
+Component(client1, "Browser")
+Component(codeAlias, "Code", $sprite="code")
+Component(buildAlias, "Build", $sprite="cogs")
+System_Boundary(c1, "Server") {
+    Container(runAlias, "Run", $sprite="play")
+}
+Component(editorAlias, "Editor", $sprite="vscode")
+
+Rel(user1, client1, " ")
+Rel(client1, runAlias, " ")
+Rel_R(codeAlias, buildAlias, " ")
+Rel_R(buildAlias, runAlias, " ")
+Rel_U(editorAlias, codeAlias, " ")
+
+@enduml

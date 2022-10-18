@@ -20,6 +20,8 @@ Help for my first programming experience. Start with [Work to do?](#work-to-do) 
 
 You'll need some understanding of some concepts. Here are a few with a very limited explaination of them.
 
+![full-view](img/full-view.png)
+
 ### It depends
 
 'It depends' is the main response to many questions an IT guy will reply. Why? Just ... because it depends.
@@ -34,6 +36,8 @@ Be prepared to get the answer: 'It depends'!
 
 ### code-build-run
 
+![code-build-run](img/code-build-run.png)
+
 Software is written as plain text files.
 This can not be interpreted by computers directly ... most of the times (see [it depends](#it-depends).
 It is a common pattern that source code has to be transformed (compiled) to for computers executable software.
@@ -43,6 +47,8 @@ In general all these steps combined are called 'build' or 'the build'.
 This has to happen before the software can actually be executed on a computer. This execution is generally called 'run'.
 
 ### client-server
+
+![client-server](img/client-server.png)
 
 The internet connects computers.
 Each computer can a client.
@@ -57,12 +63,16 @@ Your local machine acts as a local host so this request can be written as http:/
 
 ### browser-server
 
+![browser-server](img/browser-server.png)
+
 A browser is a special client which also has rich features to run code and visualise downloaded resources.
 In general browsers will request HTML resources from servers and this is the basic content of a webpage.
 HTML is the structured content which includes the text, links to the images and links to formatting configuration like collors and such and also links to JavaScript.
 These last sort are text files which are directly executable by the browser to animate the visualisation and do whole a lot of stuff which will make the user interface interactive for the user.
 
 ### code-editor
+
+![editor-code-build-run](img/editor-code-build-run.png)
 
 Source code are just text files.
 You will need an editor to manipulate these text files preferably with support to check that instructions are valid for interpretation of the computer.
@@ -103,3 +113,7 @@ This is a format to create documentation like this guide. Files have `.md` exten
 ### NodeJS
 
 Tool #5: [NodeJS](https://nodejs.org/en/)
+
+## Contribution
+
+This repo is edited with [VSCode](#vscode) and uses a [PlantUML plugin](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) to generate the containing images. The sources can be found in `src/` and generation is (for now) executed manually on a local machine.
