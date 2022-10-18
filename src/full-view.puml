@@ -20,7 +20,7 @@ System_Boundary(c1, "Server") {
 }
 Component(editorAlias, "Editor", $sprite="vscode")
 
-Rel(user1, client1, " ")
+Rel_L(user1, client1, " ")
 Rel(client1, runAlias, " ")
 Rel_R(codeAlias, buildAlias, " ")
 Rel_R(buildAlias, runAlias, " ")

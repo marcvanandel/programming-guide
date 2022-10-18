@@ -14,7 +14,7 @@ System_Boundary(c1, "Server") {
     Container(runAlias, "Run", $sprite="play")
 }
 
-Rel(user1, client1, " ")
+Rel_L(user1, client1, " ")
 Rel(client1, runAlias, " ")
 
 @enduml
