@@ -80,6 +80,15 @@ As long as the text files are valid the editor does not matter; you're free to c
 A fully integrated editor which includes support for build tools and all kind of error handling during development is called a 'Integrated Development Environment' or IDE in short.
 [Visual Studio Code](#vscode) is sort of a combination of a fairly simple editor and a full IDE.
 
+### junior-senior
+
+While you write and read code you'll mature slowly.
+The amount of code you will write will evolve with your matury.
+
+![Lines of Code vs Experience](img/lines-of-code-vs-experience.png)
+
+See [Expose junior developers to senior code](https://levelup.gitconnected.com/if-you-want-senior-developers-then-expose-juniors-to-senior-code-446d04e28def)
+
 ## Tools
 
 What do I need? (use Ctrl+click to open links)
