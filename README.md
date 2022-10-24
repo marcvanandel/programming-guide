@@ -2,6 +2,10 @@
 
 Help for my first programming experience. Start with [Work to do?](#work-to-do) and use the [Tools](#tools) section when you need a tool for a task.
 
+If you just want to learn programming, try **[Hedy](https://hedycode.com/)**.
+This is a really fun and easy way to get you into learning how to write code.<!-- two spaces at the end are on purpose -->  
+_Tip: select your own language if English is not your native language!_
+
 ## Work to do
 
 1. Create your own [GitHub](#github) account
