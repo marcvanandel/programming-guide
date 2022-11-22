@@ -24,7 +24,7 @@ _Tip: select your own language if English is not your native language!_
 
 You'll need some understanding of some concepts. Here are a few with a very limited explaination of them.
 
-![full-view](presentation/img/full-view.png)
+![full-view](docs/img/full-view.png)
 
 ### It depends
 
@@ -40,7 +40,7 @@ Be prepared to get the answer: 'It depends'!
 
 ### code-build-run
 
-![code-build-run](presentation/img/code-build-run.png)
+![code-build-run](docs/img/code-build-run.png)
 
 Software is written as plain text files.
 This can not be interpreted by computers directly ... most of the times (see [it depends](#it-depends)).
@@ -52,7 +52,7 @@ This has to happen before the software can actually be executed on a computer. T
 
 ### client-server
 
-![client-server](presentation/img/client-server.png)
+![client-server](docs/img/client-server.png)
 
 The internet connects computers.
 Each computer can a client.
@@ -67,7 +67,7 @@ Your local machine acts as a local host so this request can be written as http:/
 
 ### browser-server
 
-![browser-server](presentation/img/browser-server.png)
+![browser-server](docs/img/browser-server.png)
 
 A browser is a special client which also has rich features to run code and visualise downloaded resources.
 In general browsers will request HTML resources from servers and this is the basic content of a webpage.
@@ -76,7 +76,7 @@ These last sort are text files which are directly executable by the browser to a
 
 ### code-editor
 
-![editor-code-build-run](presentation/img/editor-code-build-run.png)
+![editor-code-build-run](docs/img/editor-code-build-run.png)
 
 Source code are just text files.
 You will need an editor to manipulate these text files preferably with support to check that instructions are valid for interpretation of the computer.
@@ -86,7 +86,7 @@ A fully integrated editor which includes support for build tools and all kind of
 
 ### code-service-data-algorithm
 
-![code-service-data-algorithm](presentation/img/code-service-data-algorithm.png)
+![code-service-data-algorithm](docs/img/code-service-data-algorithm.png)
 
 Source code is always the base for a product, a service.
 The service is used by clients and users and uses and produces data.
@@ -113,7 +113,7 @@ But again, opening up all parts will bring the highest level of trust of the sys
 While you write and read code you'll mature slowly.
 The amount of code you will write will evolve with your matury.
 
-![Lines of Code vs Experience](presentation/img/lines-of-code-vs-experience.png)
+![Lines of Code vs Experience](docs/img/lines-of-code-vs-experience.png)
 
 See [Expose junior developers to senior code](https://levelup.gitconnected.com/if-you-want-senior-developers-then-expose-juniors-to-senior-code-446d04e28def)
 
