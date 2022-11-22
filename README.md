@@ -24,7 +24,7 @@ _Tip: select your own language if English is not your native language!_
 
 You'll need some understanding of some concepts. Here are a few with a very limited explaination of them.
 
-![full-view](img/full-view.png)
+![full-view](presentation/img/full-view.png)
 
 ### It depends
 
@@ -40,10 +40,10 @@ Be prepared to get the answer: 'It depends'!
 
 ### code-build-run
 
-![code-build-run](img/code-build-run.png)
+![code-build-run](presentation/img/code-build-run.png)
 
 Software is written as plain text files.
-This can not be interpreted by computers directly ... most of the times (see [it depends](#it-depends).
+This can not be interpreted by computers directly ... most of the times (see [it depends](#it-depends)).
 It is a common pattern that source code has to be transformed (compiled) to for computers executable software.
 This transformation contains transforming the text files to machine readible files but also contains steps for bundling, collecting, downloading dependencies and many, many other steps.
 In general all these steps combined are called 'build' or 'the build'.
@@ -52,7 +52,7 @@ This has to happen before the software can actually be executed on a computer. T
 
 ### client-server
 
-![client-server](img/client-server.png)
+![client-server](presentation/img/client-server.png)
 
 The internet connects computers.
 Each computer can a client.
@@ -67,7 +67,7 @@ Your local machine acts as a local host so this request can be written as http:/
 
 ### browser-server
 
-![browser-server](img/browser-server.png)
+![browser-server](presentation/img/browser-server.png)
 
 A browser is a special client which also has rich features to run code and visualise downloaded resources.
 In general browsers will request HTML resources from servers and this is the basic content of a webpage.
@@ -76,7 +76,7 @@ These last sort are text files which are directly executable by the browser to a
 
 ### code-editor
 
-![editor-code-build-run](img/editor-code-build-run.png)
+![editor-code-build-run](presentation/img/editor-code-build-run.png)
 
 Source code are just text files.
 You will need an editor to manipulate these text files preferably with support to check that instructions are valid for interpretation of the computer.
@@ -84,12 +84,36 @@ As long as the text files are valid the editor does not matter; you're free to c
 A fully integrated editor which includes support for build tools and all kind of error handling during development is called a 'Integrated Development Environment' or IDE in short.
 [Visual Studio Code](#vscode) is sort of a combination of a fairly simple editor and a full IDE.
 
+### code-service-data-algorithm
+
+![code-service-data-algorithm](presentation/img/code-service-data-algorithm.png)
+
+Source code is always the base for a product, a service.
+The service is used by clients and users and uses and produces data.
+So the service has a connection to the database.
+The data is than being used to train an algorithm.
+Which in turn is used inside or by the running service.
+
+For example security is mainly focused around the service and runtime environment of the service.
+The code is NOT the valid focus for securing this environment.
+Of course code can open up for vulnerabilities ... but it is not the main solution for security!
+
+All parts can be open ... although the runtime will probably the least open.
+When all (other) parts are open, they complement eachother in being open and transparant.
+It is also possible to open up select parts.
+**Open Data** is common for governments.
+By applying **Open Source** as well the Open Data is even more trustworthy.
+Opening up the algorithms is increasing trust in the system as a whole as well.
+It is also possible to open up the algorithms on closed data.
+Open Source with closed data is possible as well.
+But again, opening up all parts will bring the highest level of trust of the system.
+
 ### junior-senior
 
 While you write and read code you'll mature slowly.
 The amount of code you will write will evolve with your matury.
 
-![Lines of Code vs Experience](img/lines-of-code-vs-experience.png)
+![Lines of Code vs Experience](presentation/img/lines-of-code-vs-experience.png)
 
 See [Expose junior developers to senior code](https://levelup.gitconnected.com/if-you-want-senior-developers-then-expose-juniors-to-senior-code-446d04e28def)
 
