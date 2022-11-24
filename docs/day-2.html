@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <meta
+      name="description"
+      content="An introduction to programming - The Guide"
+    />
+    <meta name="author" content="Marc van Andel" />
+
+    <title>Programming Guide</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3>Introduction to</h3>
+          <h2 class="r-fit-text max100">Programming</h2>
+          <h3>- Day 2 -</h3>
+        </section>
+
+        <section>
+          <h3>Terminal</h3>
+          <p class="r-fit-text max100">
+            Terminal <span style="color: rgb(69, 129, 179)">|</span> Command
+            Line Interface <span style="color: rgb(69, 129, 179)">|</span> CLI
+          </p>
+
+          <img
+            class="stretch"
+            data-src="https://itsfoss.com/wp-content/uploads/2022/07/jp2a.png"
+          />
+        </section>
+
+        <section data-background="#7e8c91">
+          <section>
+            <h3>Programming Language Characteristics</h3>
+
+            <img
+              class="stretch"
+              data-src="https://jcsites.juniata.edu/faculty/rhodes/lt/images/criteriatable.gif"
+            />
+          </section>
+
+          <section>
+            <h3>Compiled vs Interpreted</h3>
+
+            <img data-src="../programming-guide/img/code-build-run.png" />
+          </section>
+
+          <section>
+            <h4>Strong vs Weak Typing</h4>
+            <h4 class="fragment fade-up">Static vs Dynamic Typing</h4>
+
+            <div class="r-stack">
+              <img
+                class="fragment fade-up"
+                data-src="https://miro.medium.com/max/720/1*K-PQs_n1eqFNjGKNI4zAaQ.webp"
+              />
+              <img
+                class="fragment fade-up"
+                data-src="https://prepinsta.com/wp-content/uploads/2020/07/Why-Python-is-a-strongly-typed-language.webp"
+              />
+            </div>
+          </section>
+
+          <section>
+            <h4>Object Oriented Programming</h4>
+            <h4>vs</h4>
+            <h4>Functional Programming</h4>
+
+            <img data-src="https://kara.codes/pics/FP-vs-OOP.png" />
+          </section>
+        </section>
+
+        <section data-background="#4d7e65">
+          <h3>Concurrency</h3>
+
+          <img
+            class="stretch"
+            src="https://brightdigit.com/media/wp-images/learningswift/2019/09/ParallelConcurrency.001-1024x768.jpeg"
+          />
+        </section>
+
+        <section data-background="#b5533c">
+          <h3>Test Driven Development</h3>
+
+          <img
+            class="stretch"
+            src="https://marsner.com/wp-content/uploads/test-driven-development-TDD.png"
+          />
+        </section>
+      </div>
+      <div class="footer">
+        <a href="./">Index</a> | Sources @
+        <a
+          href="https://github.com/marcvanandel/programming-guide/blob/main/docs/index.html"
+          >GitHub</a
+        >
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        backgroundTransition: "zoom",
+        margin: 0.1,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
