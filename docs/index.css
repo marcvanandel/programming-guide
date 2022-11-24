@@ -13,3 +13,8 @@
     text-align: center;
     z-index: 10;
 }
+
+.footer a {
+    display: inline-block;
+    color: rgb(69, 129, 179);
+}
