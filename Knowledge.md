@@ -160,13 +160,12 @@ A webbrowser is a JavaScript interpreter as well!
 You can also run the above JavaScript example with the example HTML file which references the same JavaScript file.
 Just open [hello-world.html](src/code/hello-world.html) with your default browser and open the developer tools (F12) / console :smiley:
 
+
+![Compiled vs Interpreted Languages](docs/img/compiled-interpreted-table.png)
+
+
 [GeeksForGeeks](https://www.geeksforgeeks.org/difference-between-compiled-and-interpreted-language/) have a great explanation about the differences and comparison of Interpreted versus Compiled programming languages.
 
-| <td colspan=2> COMPILED    | <td colspan=2> INTERPRETED |
-| -------------------------- | -------------------------- | --------------- | ------------------------- |
-| Ready to **run**           | **not** cross-platform     | cross-platform  | interpreter required      |
-| often **faster**           | inflexible                 | simpler to test | ofter **slower**          |
-| source code is **private** | extra step                 | easier to debug | source code is **public** |
 
 ### Type Systems
 
@@ -201,6 +200,8 @@ FP stands for Functional Programming.
 Your code is organized in functions.
 Functions are applied to data structures.
 
+Interesting blog about [FP vs OOP @ Medium](https://medium.com/@shaistha24/functional-programming-vs-object-oriented-programming-oop-which-is-better-82172e53a526).
+
 ### Concurrency
 
 > // TODO
@@ -208,4 +209,3 @@ Functions are applied to data structures.
 ### Test Driven Development
 
 > // TODO
-
