@@ -8,6 +8,17 @@ If you just want to learn programming, try **[Hedy](https://hedycode.com/)**.
 This is a really fun and easy way to get you into learning how to write code.<!-- two spaces at the end are on purpose -->  
 _Tip: select your own language if English is not your native language!_
 
+
+## Table of Contents
+
+This repo contains multiple parts:
+
+- [Knowledge](Knowledge.md)
+  - [Basics](Knowledge.md#basics)
+  - [Programming Language Characteristics](Knowledge.md#programming-language-characteristics)
+- [Tools](#tools)
+- [Work to do](#work-to-do)
+
 ## Work to do
 
 1. Create your own [GitHub](#github) account
@@ -23,101 +34,6 @@ _Tip: select your own language if English is not your native language!_
 > [JavaScript introduction video](https://youtu.be/W6NZfCO5SIk)
 
 ## General Knowledge
-
-You'll need some understanding of some concepts. Here are a few with a very limited explaination of them.
-
-![full-view](docs/img/full-view.png)
-
-### It depends
-
-'It depends' is the main response to many questions an IT guy will reply. Why? Just ... because it depends.
-Software and technology are layers of technical capabilities and complexity is within each layer and multiplied between layers.
-So the answer to a simple question is very often 'it depends.
-It depends on which layer of the technology something arises.
-It depends if it is on the client side or server side (see [client-server](#client-server)).
-It depends on the error.
-It depends on which specific technology or programming language is used.
-It can depend on so many things!
-Be prepared to get the answer: 'It depends'!
-
-### code-build-run
-
-![code-build-run](docs/img/code-build-run.png)
-
-Software is written as plain text files.
-This can not be interpreted by computers directly ... most of the times (see [it depends](#it-depends)).
-It is a common pattern that source code has to be transformed (compiled) to for computers executable software.
-This transformation contains transforming the text files to machine readible files but also contains steps for bundling, collecting, downloading dependencies and many, many other steps.
-In general all these steps combined are called 'build' or 'the build'.
-
-This has to happen before the software can actually be executed on a computer. This execution is generally called 'run'.
-
-### client-server
-
-![client-server](docs/img/client-server.png)
-
-The internet connects computers.
-Each computer can a client.
-As a client this computer is requesting some resource through the internet from another computer.
-The latter is set up as the server.
-A server is just a piece of software that listens to a certain port of the computer the software is running on and that will respond to requests on that port.
-So my local laptop or desktop computer can be turned into a server by starting a piece of software that listens to port 1000 for example.
-You can use a browser as a client by navigating to http://127.0.01:1000.
-The first part is the IP address (internet address) of my local computer (also called machine) and after the colon is the port you specify the request to, in this case port 1000.
-DNS is the solution to hide the IP address numbers and use proper and names easy to remember.
-Your local machine acts as a local host so this request can be written as http://localhost:1000.
-
-### browser-server
-
-![browser-server](docs/img/browser-server.png)
-
-A browser is a special client which also has rich features to run code and visualise downloaded resources.
-In general browsers will request HTML resources from servers and this is the basic content of a webpage.
-HTML is the structured content which includes the text, links to the images and links to formatting configuration like collors and such and also links to JavaScript.
-These last sort are text files which are directly executable by the browser to animate the visualisation and do whole a lot of stuff which will make the user interface interactive for the user.
-
-### code-editor
-
-![editor-code-build-run](docs/img/editor-code-build-run.png)
-
-Source code are just text files.
-You will need an editor to manipulate these text files preferably with support to check that instructions are valid for interpretation of the computer.
-As long as the text files are valid the editor does not matter; you're free to choose your own.
-A fully integrated editor which includes support for build tools and all kind of error handling during development is called a 'Integrated Development Environment' or IDE in short.
-[Visual Studio Code](#vscode) is sort of a combination of a fairly simple editor and a full IDE.
-
-### code-service-data-algorithm
-
-![code-service-data-algorithm](docs/img/code-service-data-algorithm.png)
-
-Source code is always the base for a product, a service.
-The service is used by clients and users and uses and produces data.
-So the service has a connection to the database.
-The data is than being used to train an algorithm.
-Which in turn is used inside or by the running service.
-
-For example security is mainly focused around the service and runtime environment of the service.
-The code is NOT the valid focus for securing this environment.
-Of course code can open up for vulnerabilities ... but it is not the main solution for security!
-
-All parts can be open ... although the runtime will probably the least open.
-When all (other) parts are open, they complement eachother in being open and transparant.
-It is also possible to open up select parts.
-**Open Data** is common for governments.
-By applying **Open Source** as well the Open Data is even more trustworthy.
-Opening up the algorithms is increasing trust in the system as a whole as well.
-It is also possible to open up the algorithms on closed data.
-Open Source with closed data is possible as well.
-But again, opening up all parts will bring the highest level of trust of the system.
-
-### junior-senior
-
-While you write and read code you'll mature slowly.
-The amount of code you will write will evolve with your matury.
-
-![Lines of Code vs Experience](docs/img/lines-of-code-vs-experience.png)
-
-See [Expose junior developers to senior code](https://levelup.gitconnected.com/if-you-want-senior-developers-then-expose-juniors-to-senior-code-446d04e28def)
 
 ## Tools
 
