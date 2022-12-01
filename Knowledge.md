@@ -104,6 +104,43 @@ The amount of code you will write will evolve with your matury.
 
 See [Expose junior developers to senior code](https://levelup.gitconnected.com/if-you-want-senior-developers-then-expose-juniors-to-senior-code-446d04e28def)
 
+## Computer Structures
+
+### Personal Computer
+
+All computers consist of the same basic structure.
+The main dekstop computers of today are known as 'Personal Computers' which is actually a concept and architecture of the 1980s.
+But also smartphones and Chrombooks do follow this structure one way or the other.
+
+![Hardware Kernel User Space](docs/img/hardware-kernel-user-space.png)
+
+At the bottom there's hardware.
+The name 'computer' comes from the 'Computing Processing Unit' which forms the core of the computer (duh!).
+But what does it compute?
+Well it takes input from memory, does some calculation with it and returns the result into the memory again.
+That's all there is to it.
+But ... at the speed of this mind blowing!
+2.4 GHz means that the CPU is executing 2,400,000,000 calculations per second! :flushed:
+
+So the processor or CPU is the core of the computer but there are a whole lot of other components needed for it to work.
+Memory for a starter holds all values needed for input and storing output.
+But memory will be emptied on shutdown.
+So a persistent memory of some sort is needed for long term storage of values, information, data.
+This is what the disk is for.
+And of course many other components for interaction and additional features like network interface, keyboard, mouse, camera, sound, etc, etc.
+
+### Virtual Machine
+
+// TODO
+
+### Container
+
+// TODO
+
+### Cloud
+
+// TODO
+
 ## Programming Language Characteristics
 
 There are differences between programming languages ... and those might influence the language of choice for a certain job.
