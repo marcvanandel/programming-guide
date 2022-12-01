@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/black.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
 
     <link rel="stylesheet" href="index.css" />
 
@@ -28,21 +28,23 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <h3>Introduction to Programming</h3>
-          <h4>- The Guide -</h4>
-
-          <ul>
-            <li><a href="day-1.html">Day 1 - Basics</a></li>
-            <li><a href="day-2.html">Day 2 - Programming Languages</a></li>
-            <li><a href="day-3.html">Day 3 - Computer Structures</a></li>
-          </ul>
-
+          <h4>Introduction to Programming</h4>
+          <h3>Computer Structures</h3>
         </section>
 
+        <section>
+          <h3>Personal Computer</h3>
+
+          <img
+            data-src="../programming-guide/img/hardware-kernel-user-space.png"
+          />
+        </section>
       </div>
       <div class="footer">
-        Sources @ <a href="https://github.com/marcvanandel/programming-guide/">GitHub</a>
+        <a href="./">Index</a> | Sources @
+        <a href="https://github.com/marcvanandel/programming-guide/">GitHub</a>
       </div>
+    </div>
 
     <script src="dist/reveal.js"></script>
     <script src="plugin/notes/notes.js"></script>
@@ -55,7 +57,7 @@
       Reveal.initialize({
         hash: true,
         backgroundTransition: "zoom",
-		margin: 0.1,
+        margin: 0.1,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
