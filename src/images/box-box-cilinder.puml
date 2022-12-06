@@ -1,0 +1,28 @@
+@startuml box-box-cilinder
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!includeurl ICONURL/devicons/code.puml
+!includeurl ICONURL/font-awesome/cogs.puml
+!includeurl ICONURL/font-awesome-5/play.puml
+!includeurl ICONURL/devicons/database.puml
+!includeurl ICONURL/devicons2/vscode.puml
+
+HIDE_STEREOTYPE()
+
+Person(user1, "User")
+Component(client1, "Browser")
+System_Boundary(c1, "Server") {
+    Container(webappAlias, "Webapp", "box", $sprite="code")
+    Container(serviceAlias, "Service", "box", $sprite="play")
+    ContainerDb(dataAlias, "Database", "cilinder", $sprite="database")
+}
+
+Rel_L(user1, client1, " ")
+Rel(client1, webappAlias, " ")
+Rel_R(webappAlias, serviceAlias, " ")
+Rel_R(serviceAlias, dataAlias, " ")
+
+@enduml

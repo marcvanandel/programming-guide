@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/black.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
 
     <link rel="stylesheet" href="index.css" />
 
@@ -28,22 +28,51 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <h3>Introduction to Programming</h3>
-          <h4>- The Guide -</h4>
-
-          <ul>
-            <li><a href="day-1.html">Day 1 - Basics</a></li>
-            <li><a href="day-2.html">Day 2 - Programming Languages</a></li>
-            <li><a href="day-3.html">Day 3 - Architectural</a></li>
-            <li><a href="day-4.html">Day 4 - Cyber Security</a></li>
-          </ul>
-
+          <h4>Introduction to Programming</h4>
+          <h3>Cyber Security</h3>
         </section>
 
+        <section>
+          <h3>Hackers</h3>
+
+          <a
+            class="stretch"
+            href="https://www.techtarget.com/searchsecurity/answer/What-is-red-and-white-hat-hacking"
+            target="_blank"
+          >
+            <img
+              data-src="https://cdn.ttgtmedia.com/rms/onlineimages/security-types_of_hackers_hats-f.png"
+            />
+          </a>
+        </section>
+
+        <section>
+          <h3>Targets</h3>
+          <p>
+            Box <span style="color: rgb(69, 129, 179)">-</span> Box
+            <span style="color: rgb(69, 129, 179)">-</span> Cilinder
+          </p>
+
+          <img data-src="../programming-guide/img/box-box-cilinder.png" />
+        </section>
+
+        <section>
+          <h3>Secure Programming</h3>
+          <p>OWASP Top 10</p>
+
+          <a href="https://owasp.org/www-project-juice-shop/" target="_blank">
+            <img
+              class="stretch"
+              data-src="https://raw.githubusercontent.com/juice-shop/juice-shop/master/screenshots/slideshow.gif"
+            />
+          </a>
+        </section>
       </div>
       <div class="footer">
-        Sources @ <a href="https://github.com/marcvanandel/programming-guide/">GitHub</a>
+        <a href="./">Index</a> | Sources @
+        <a href="https://github.com/marcvanandel/programming-guide/">GitHub</a>
       </div>
+    </div>
 
     <script src="dist/reveal.js"></script>
     <script src="plugin/notes/notes.js"></script>
@@ -56,7 +85,7 @@
       Reveal.initialize({
         hash: true,
         backgroundTransition: "zoom",
-		margin: 0.1,
+        margin: 0.1,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
