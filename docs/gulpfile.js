@@ -22,6 +22,8 @@ const minify = require('gulp-clean-css')
 const connect = require('gulp-connect')
 const autoprefixer = require('gulp-autoprefixer')
 
+const { createProxyMiddleware } = require('http-proxy-middleware');
+
 const root = yargs.argv.root || '.'
 const port = yargs.argv.port || 8000
 const host = yargs.argv.host || 'localhost'
@@ -295,7 +297,17 @@ gulp.task('serve', () => {
         root: root,
         port: port,
         host: host,
-        livereload: true
+        livereload: true,
+        middleware: function(connect, opt) {
+            return [
+                createProxyMiddleware('/programming-guide', {
+                    target: 'http://localhost:8000',
+                    pathRewrite: {'^/programming-guide' : '/'}
+                    // changeOrigin:true,
+                    // ws: true      // <-- set it to 'true' to proxy WebSockets
+                })
+            ]
+        }
     })
 
     gulp.watch(['*.html', '*.md'], gulp.series('reload'))
