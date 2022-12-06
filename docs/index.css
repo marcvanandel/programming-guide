@@ -2,6 +2,10 @@
     text-transform: lowercase;
 }
 
+.background-white {
+    background-color: white;
+}
+
 .footer { 
     height: 1.2vw; 
     position: fixed; 
