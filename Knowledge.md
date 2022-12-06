@@ -249,7 +249,25 @@ Interesting blog about [FP vs OOP @ Medium](https://medium.com/@shaistha24/funct
 
 ### Test Driven Development
 
-> // TODO Setting up a simple example project to show TDD practice
+Test Driven Development is explained quite clear on [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development):
+
+1. Add a test
+2. Run all tests. The new test _should fail_ for expected reasons
+3. Write the simplest code that passes the new test
+4. All tests should now pass
+5. Refactor as needed, using tests after each refactor to ensure that functionality is preserved
+6. Repeat
+
+Check out the principles Kent Beck, Father of TDD, is promoting [there](https://en.wikipedia.org/wiki/Test-driven_development#Development_style):
+
+- KISS: _Keep It Simple, Stupid_
+- YAGNI: _You Ain't Gonna Need It_
+- _Fake it till you make it_
+
+These are important ways of looking at the craft of software engineering.
+Many times developing software is a cycle of pain and frustration.
+It is unknown why developers are actually sort of liking this way of working.
+With TDD you change this cycle into many small happy celebrations of green tests :muscle:
 
 Using [this tutorial](https://duncanlew.medium.com/unit-testing-typescript-with-jest-part-one-f39d2392d0f4) for setting up a simple example project based on TypeScript and NodeJS.
 
