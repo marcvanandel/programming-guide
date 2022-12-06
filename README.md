@@ -43,11 +43,13 @@ What do I need? (use Ctrl+click to open links)
 
 Tool #1: [git](https://git-scm.com/) for version control of your local files; you'll need this a lot :wink:
 
-This is a very basic tool ... and because we'll be using GitHub as well (see tool #2) we'll use the GitHub Desktop version of git.
+- Just download it and install it with all defaults
+- Check out these instruction videos [part 1](https://youtu.be/9GKpbI1siow) and [part 2](https://youtu.be/n-p1RUmdl9M)
+
+This is a very basic tool and it is good practice to understand what you are doing on this level. Once you're familiar with that you'll able to step up and move to visual tools as well ... like GitHub Desktop (see [tool #2](#github)).
 
 - Download the [GitHub Desktop](https://desktop.github.com/) - this is an easy and visual tool to interact with GitHub
 - Install with all defaults
-- Check out these instruction videos [part 1](https://youtu.be/9GKpbI1siow) and [part 2](https://youtu.be/n-p1RUmdl9M)
 
 ### GitHub
 
@@ -98,6 +100,14 @@ npm --version
 
 `npm` is the Node Package Manager.
 
+For installation there are multiple options ... and (of course) it depends on your system and preferences which one is best for you :wink:
+
+- [not promoted] direct [download + installation](https://nodejs.org/en/download/)
+- [promoted] via [Node.js package manager](https://nodejs.org/en/download/package-manager/)
+  - [preferred @ WSL] via [Nodenv](https://nodejs.org/en/download/package-manager/#nodenv) (similar to nvm)
+  - [preferred @ WSL] via [Node Version Manager](https://nodejs.org/en/download/package-manager/#nvm) (similar to nodenv)
+  - [preferred @ Windows PowerShell] via [Scoop](https://nodejs.org/en/download/package-manager/#windows-1) (option `Scoop`)
+
 ### Terminal
 
 This is already available in a few sorts on your machine.
@@ -108,6 +118,7 @@ In case you have a Windows machine (developers slang for computer) you'll have a
 
 - Hit 'Start' and type 'cmd' to start the 'Command Prompt' - this is 'the old and long time available Windows terminal'
 - Hit 'Start' and type 'powershell' to start the 'Windows PowerShell' terminal - this is 'the new and powerful terminal'
+- [after installing [Git scm](#git)] Hit 'Start' and type 'Git bash' (or just 'bash') to start the 'Git bash' terminal - this is a powerful emulator of the Linux Bash terminal ... but actually runs directly on Windows
 
 **Linux**
 
