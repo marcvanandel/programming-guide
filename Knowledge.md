@@ -249,4 +249,7 @@ Interesting blog about [FP vs OOP @ Medium](https://medium.com/@shaistha24/funct
 
 ### Test Driven Development
 
-> // TODO
+> // TODO Setting up a simple example project to show TDD practice
+
+Using [this tutorial](https://duncanlew.medium.com/unit-testing-typescript-with-jest-part-one-f39d2392d0f4) for setting up a simple example project based on TypeScript and NodeJS.
+
