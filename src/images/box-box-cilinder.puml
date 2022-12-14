@@ -13,15 +13,16 @@
 HIDE_STEREOTYPE()
 
 Person(user1, "User")
-Component(client1, "Browser")
+Component(browserAlias, "Browser")
 System_Boundary(c1, "Server") {
     Container(webappAlias, "Webapp", "box", $sprite="code")
     Container(serviceAlias, "Service", "box", $sprite="play")
     ContainerDb(dataAlias, "Database", "cilinder", $sprite="database")
 }
 
-Rel_L(user1, client1, " ")
-Rel(client1, webappAlias, " ")
+Rel_L(user1, browserAlias, " ")
+Rel(browserAlias, webappAlias, " ")
+Rel(browserAlias, serviceAlias, " ")
 Rel_R(webappAlias, serviceAlias, " ")
 Rel_R(serviceAlias, dataAlias, " ")
 
