@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <meta
+      name="description"
+      content="An introduction to programming - TypeScript Program"
+    />
+    <meta name="author" content="Marc van Andel" />
+
+    <title>Programming Guide</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3>TypeScript</h3>
+          <p>- Programming Guide -</p>
+        </section>
+
+        <section>
+          <h3>Program</h3>
+          <table class="program">
+            <thead>
+              <th>Maandag</th>
+              <th>Dinsdag</th>
+              <th>Woensdag</th>
+            </thead>
+            <tr>
+              <td>~9.00 Arrival</td>
+              <td colspan="2">9.00 Develop the project</td>
+            </tr>
+            <tr>
+              <td>10.00 Start</td>
+              <td colspan="2">10.30 Coffee break</td>
+            </tr>
+            <tr>
+              <td colspan="3">12.30 Lunch</td>
+            </tr>
+            <tr>
+              <td>13.30 Design session</td>
+              <td>13.30 Develop the project</td>
+              <td>13.30 Finalize the project</td>
+            </tr>
+            <tr>
+              <td colspan="3">15.15 Coffee break</td>
+            </tr>
+            <tr>
+              <td>15.30 Design session</td>
+              <td>15.30 Develop the project</td>
+              <td>15.30 Demo & Evaluation</td>
+            </tr>
+            <tr>
+              <td colspan="3">17.00 Call it a day</td>
+            </tr>
+            <tr>
+              <td colspan="2">17.30 Evening program</td>
+              <td>17.30 <span style="font-family: 'Courier New', Courier, monospace;">Exit(0)</span></td>
+            </tr>
+          </table>
+        </section>
+
+        <section>
+          <h3>Start</h3>
+
+          <ol type="1">
+            <li>
+              <a
+                href="https://observablehq.com/@soney/an-introduction-to-typescript"
+                target="_blank"
+                >Easy introduction to TypeScript</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.tutorialsteacher.com/typescript"
+                target="_blank"
+                >Broader subjects of TypeScript</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.typescriptlang.org/docs/handbook/intro.html"
+                target="_blank"
+                >TypeScript Handbook</a
+              >
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>The project</h3>
+          <div style="font-size: 0.5em;">
+            <p>
+              With this project we'll be developing a real working application
+              together.
+            </p>
+            <p>Language of choice: <b>TypeScript</b> (of course)</p>
+          </div>
+          <ul>
+            <li>
+              <a href="https://miro.com/app/board/uXjVPwAXcLg=/">Miro board</a><br>
+              <small>
+                (<span style="font-family: 'Courier New', Courier, monospace">
+                  innovation friday
+                </span>
+                )
+              </small>
+            </li>
+            <li>Git repo home???</li>
+          </ul>
+        </section>
+      </div>
+      <div class="footer">
+        <a href="./">Index</a> | Sources @
+        <a href="https://github.com/marcvanandel/programming-guide/">GitHub</a>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        backgroundTransition: "zoom",
+        margin: 0.1,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

@@ -1,24 +1,33 @@
+.reveal a {
+  color: rgb(69, 129, 179);
+}
+
 .max100 {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .background-white {
-    background-color: white;
+  background-color: white;
 }
 
-.footer { 
-    height: 1.2vw; 
-    position: fixed; 
-    bottom:0%;
-    width:100%; 
-    background-color: #393838; 
-    opacity: 1;
-    font-size: 1vw;
-    text-align: center;
-    z-index: 10;
+.program td {
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.footer {
+  height: 1.2vw;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: #393838;
+  opacity: 1;
+  font-size: 1vw;
+  text-align: center;
+  z-index: 10;
 }
 
 .footer a {
-    display: inline-block;
-    color: rgb(69, 129, 179);
+  display: inline-block;
+  color: rgb(69, 129, 179);
 }
