@@ -98,7 +98,11 @@ and
 npm --version
 ```
 
-`npm` is the Node Package Manager.
+`npm` is the Node Package Manager. BUT the preferred package manager, or resource manager as they call it, is **`yarn`** ([installation](https://yarnpkg.com/getting-started/install))
+
+```bash
+yarn --version
+```
 
 For installation there are multiple options ... and (of course) it depends on your system and preferences which one is best for you :wink:
 
@@ -132,3 +136,12 @@ Once installed and available you'll need to install the git and NodeJS tools you
 This repo is edited with [VSCode](#vscode) and uses a [PlantUML plugin](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) to generate the containing images.
 The sources can be found in `src/` and generation is (for now) executed manually on a local machine.
 After generation the new images need to be moved to the `img/` folder.
+
+Publication is with [GitHub Pages](https://pages.github.com/) of the `docs/` folder.
+Local development is supported with NodeJS and yarn (see above):
+
+```bash
+cd docs
+yarn install
+yarn start
+```
