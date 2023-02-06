@@ -99,5 +99,6 @@
   },
   "dependencies": {
     "http-proxy-middleware": "^2.0.6"
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }

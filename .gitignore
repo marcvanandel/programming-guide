@@ -1,2 +1,6 @@
 # plantuml plugin output folder
 out/
+
+# build files
+**/.yarn/*
+!.yarn/releases
