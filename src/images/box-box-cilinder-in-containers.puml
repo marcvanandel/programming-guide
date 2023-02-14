@@ -1,0 +1,37 @@
+@startuml box-box-cilinder-in-containers
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!includeurl ICONURL/devicons/code.puml
+!includeurl ICONURL/font-awesome/cogs.puml
+!includeurl ICONURL/font-awesome-5/play.puml
+!includeurl ICONURL/devicons/database.puml
+!includeurl ICONURL/devicons2/vscode.puml
+
+HIDE_STEREOTYPE()
+
+Person(user1, "User")
+Component(browserAlias, "Browser")
+System_Boundary(c1, "Server") {
+    Container(webappAlias, "Webapp", "box", $sprite="code")
+    Container(serviceAlias, "Service", "box", $sprite="play")
+    ContainerDb(dataAlias, "Database", "cilinder", $sprite="database")
+    System_Boundary(c2, "Container Runtime Platform") {
+        Container(webappContainerAlias, "nginx", "image")
+        Container(serviceContainerAlias, "nodejs", "image")
+        Container(databaseContainerAlias, "mongodb", "image")
+    }
+}
+
+Rel_L(user1, browserAlias, " ")
+Rel(browserAlias, webappAlias, " ")
+Rel(browserAlias, serviceAlias, " ")
+Rel_R(webappAlias, serviceAlias, " ")
+Rel_R(serviceAlias, dataAlias, " ")
+Rel(webappAlias, webappContainerAlias, "package & run")
+Rel(serviceAlias, serviceContainerAlias, "package & run")
+Rel(dataAlias, databaseContainerAlias, "package & run")
+
+@enduml
