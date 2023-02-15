@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <meta
+      name="description"
+      content="An introduction to programming - The Guide"
+    />
+    <meta name="author" content="Marc van Andel" />
+
+    <title>Programming Guide - Continuous Delivery</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h4>Introduction to Programming</h4>
+          <h3>Continuous Delivery</h3>
+        </section>
+
+        <section>
+          <section data-background="#7e8c91">
+            <h2 class="r-fit-text max100">Code Build Run</h2>
+
+            <img data-src="../programming-guide/img/code-build-run.png" />
+          </section>
+
+          <section>
+            <p>
+              Microservices (Box
+              <span style="color: rgb(69, 129, 179)">-</span> Box
+              <span style="color: rgb(69, 129, 179)">-</span> Cilinder) in
+              Containers
+            </p>
+
+            <img
+              data-src="../programming-guide/img/box-box-cilinder-in-containers.png"
+            />
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>Environments</h3>
+            <img data-src="../programming-guide/img/dev-test-prod.png" />
+          </section>
+
+          <section>
+            <pre>$env.variable</pre>
+          </section>
+        </section>
+
+        <section>
+          <iframe
+            class="stretch"
+            src="https://www.youtube.com/embed/ahRTgG1rEXo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <h3>Continuous Integration</h3>
+          <img
+            data-src="https://insights.sei.cmu.edu/media/images/image_for_continuous_integration_and_devops_012.original.jpg"
+          />
+        </section>
+
+        <section>
+          <h3>Continuous Deployment</h3>
+          <img
+            data-src="https://insights.sei.cmu.edu/media/images/image_for_continuous_integration_and_devops_012.original.jpg"
+          />
+        </section>
+
+        <section>
+          <h3>CI / CD</h3>
+          <img
+            data-src="https://cacarer.com/wp-content/uploads/2021/09/ci-cd.jpg"
+          />
+        </section>
+
+        <section>
+          <h3>DevOps</h3>
+          <img
+            data-src="https://cacarer.com/wp-content/uploads/2021/09/ci-cd.jpg"
+          />
+        </section>
+      </div>
+      <div class="footer">
+        <a href="./">Index</a> | Sources @
+        <a href="https://github.com/marcvanandel/programming-guide/">GitHub</a>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        backgroundTransition: "zoom",
+        margin: 0.1,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
