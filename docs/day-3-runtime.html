@@ -88,13 +88,44 @@
           />
         </section>
 
+        <!-- Docker -->
         <section>
-          <h3>Docker Engine</h3>
+          <section>
+            <h3>Docker Engine</h3>
 
-          <img
-            class="stretch background-white"
-            data-src="../programming-guide/img/docker-engine.png"
-          />
+            <img
+              class="stretch background-white"
+              data-src="../programming-guide/img/docker-engine.png"
+            />
+          </section>
+
+          <section>
+            <h3>Wat is Docker?</h3>
+            <p>"<em>It Works on My Machine</em> 😏"</p>
+            <ul>
+              <li>Docker is een open-source platform waarmee ontwikkelaars applicaties kunnen maken, implementeren en uitvoeren in containers.</li>
+              <li>Containers zijn lichtgewicht en draagbaar, wat betekent dat applicaties gemakkelijk tussen omgevingen kunnen worden verplaatst.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Voordelen van Docker</h3>
+            <ul>
+              <li>Consistentie: Docker zorgt ervoor dat de applicatieomgeving consistent is op verschillende machines.</li>
+              <li>Isolatie: Elke container draait in zijn eigen geïsoleerde omgeving, wat betekent dat applicaties kunnen draaien zonder elkaar te storen.</li>
+              <li>Efficiëntie: Containers zijn lichtgewicht, wat betekent dat ze minder middelen gebruiken dan virtuele machines.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Container runtimes</h3>
+            <ul>
+              <li>Docker: De meest populaire container runtime, Docker stelt je in staat om containers te maken en te beheren met behulp van Docker-images.</li>
+              <li>Containerd: Een industriestandaard container runtime die wordt gebruikt door Docker en andere containerplatforms.</li>
+              <li>CRI-O: Een lichtgewicht en snelle container runtime die is ontworpen voor het uitvoeren van containers in Kubernetes-clusters.</li>
+              <li>rkt: Een op beveiliging gerichte container runtime die is ontwikkeld door CoreOS (nu onderdeel van Red Hat).</li>
+            </ul>
+          </section>
         </section>
 
         <section>
@@ -112,6 +143,52 @@
             />
           </div>
         </section>
+        
+        <!-- 
+            --- Container Orchestration ---
+            Buiten scope voor runtime environments
+        -->
+        <section>
+          <section>
+            <h2>Kubernetes</h2>
+            <h3>Een inleiding tot Kubernetes, een populaire container orchestrator</h3>
+          </section>
+          
+          <section>
+            <h3>Wat is Kubernetes?</h3>
+            <ul>
+              <li>Kubernetes is een open-source container orchestrator die is ontworpen om het beheer van containerapplicaties op grote schaal te vereenvoudigen.</li>
+              <li>Met Kubernetes kun je containerized applicaties implementeren, schalen en beheren op een efficiënte en gestroomlijnde manier.</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h3>Hoe werkt Kubernetes?</h3>
+            <ul>
+              <li>Kubernetes werkt door het creëren van een cluster van nodes, die samenwerken om containerized applicaties uit te voeren.</li>
+              <li>Elke node kan meerdere containers hosten, en Kubernetes is verantwoordelijk voor het beheren van de communicatie tussen de nodes en de containers.</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h3>Belangrijke Kubernetes-componenten</h3>
+            <ul>
+              <li>Pods: De kleinste en eenvoudigste unit in Kubernetes, die één of meer containers bevat.</li>
+              <li>Services: Een abstractie die wordt gebruikt om toegang te bieden tot een set van één of meer pods, vaak gebruikt voor load balancing.</li>
+              <li>Deployments: Een Kubernetes-object dat wordt gebruikt om de gewenste status van de pods te beschrijven en te beheren.</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h3>Voordelen van Kubernetes</h3>
+            <ul>
+              <li>Automatisering van containerbeheer, wat leidt tot minder menselijke fouten en hogere efficiëntie.</li>
+              <li>Automatische schaalbaarheid, wat het eenvoudiger maakt om snel te reageren op veranderende gebruiksbehoeften.</li>
+              <li>Portabiliteit van applicaties, waardoor het eenvoudiger wordt om applicaties tussen verschillende omgevingen te verplaatsen.</li>
+            </ul>
+          </section>
+        </section>
+        
       </div>
       <div class="footer">
         <a href="./">Index</a> | Sources @
