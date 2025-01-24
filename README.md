@@ -17,7 +17,7 @@ This repo contains multiple parts:
   - [Basics](Knowledge.md#basics)
   - [Programming Language Characteristics](Knowledge.md#programming-language-characteristics)
 - Exercises
-  - [[Scribble](./skribbl/README.md)
+  - [skribbl](./skribbl/README.md)
 - [Tools](#tools)
 - [Work to do](#work-to-do)
 
