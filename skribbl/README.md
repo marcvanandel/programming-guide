@@ -1,12 +1,12 @@
-# Scribble Excercise
+# Skribbl Excercise
 
-On [Scribble.io](https://scribble.io) people can choose between three words they will draw on a
+On [skribbl.io](https://skribbl.io) people can choose between three words they will draw on a
 white canvas. Other people in 'the room' need to guess what is being drawn. The first to guess the
 correct word wins! This is a fun game to play with a class.
 
 The canvas is a quite low level pixel canvas. This could as well be a table with lots of cells.
 Nice. We could turn this into a programming excercise ... and close the lesson with an actual
-Scribble game (not on our selfmade canvas, but on [scribble.io](https://scribble.io) ... but still
+skribbl game (not on our selfmade canvas, but on [skribbl.io](https://skribbl.io) ... but still
 people will get the feeling of understanding what is actually happening more 😃)
 
 ## Online
